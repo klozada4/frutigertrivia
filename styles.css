@@ -8,6 +8,11 @@
     box-sizing: border-box;
 }
 
+body,
+body * {
+    font-family: 'Michroma', sans-serif !important;
+}
+
 html {
     scroll-behavior: smooth;
 }
