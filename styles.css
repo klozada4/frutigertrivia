@@ -1,6 +1,6 @@
 /* FRUTIGER AERO BIOPAGE THEME */
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 
 * {
     margin: 0;
@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    font-family: 'Nunito', 'Trebuchet MS', sans-serif;
+    font-family: 'Michroma', sans-serif;
     color: #07516e;
     min-height: 100vh;
     padding: 25px;
