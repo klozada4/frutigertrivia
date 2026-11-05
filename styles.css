@@ -223,12 +223,40 @@ section img {
 
 /* TOOLTIP */
 
+/* TOOLTIP */
+
 .tooltip {
+    position: relative;
     color: #079bc4;
-    font-weight: 900;
-    text-decoration: underline;
-    text-decoration-style: dotted;
-    cursor: help;
+    font-weight: bold;
+    text-decoration: underline dotted;
+    cursor: pointer;
+}
+
+.tooltip::after {
+    content: "Hi! I'm a little hidden surprise! ✨";
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background: #dffaff;
+    color: #07516e;
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: 1px solid white;
+
+    font-size: 11px;
+    white-space: nowrap;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s;
+}
+
+.tooltip:hover::after {
+    opacity: 1;
+    visibility: visible;
 }
 
 /* QUICK LINKS */
